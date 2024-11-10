@@ -1,0 +1,129 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jun 30 21:07:59 2023
+# Process ID: 1596
+# Current directory: D:/computing/pipeline交
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22888 D:\computing\pipeline交\pipeline.xpr
+# Log file: D:/computing/pipeline交/vivado.log
+# Journal file: D:/computing/pipeline交\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/computing/pipeline交/pipeline.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 830.445 ; gain = 187.375
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/computing/pipeline交/6.26pipline/Multi_8CH32.edf] -no_script -reset -force -quiet
+remove_files  D:/computing/pipeline交/6.26pipline/Multi_8CH32.edf
+export_ip_user_files -of_objects  [get_files D:/computing/pipeline交/6.26pipline/MIO_BUS.edf] -no_script -reset -force -quiet
+remove_files  D:/computing/pipeline交/6.26pipline/MIO_BUS.edf
+export_ip_user_files -of_objects  [get_files D:/computing/pipeline交/6.26pipline/MIO_BUS.V] -no_script -reset -force -quiet
+remove_files  D:/computing/pipeline交/6.26pipline/MIO_BUS.V
+export_ip_user_files -of_objects  [get_files D:/computing/pipeline交/6.26pipline/SSeg7.edf] -no_script -reset -force -quiet
+remove_files  D:/computing/pipeline交/6.26pipline/SSeg7.edf
+export_ip_user_files -of_objects  [get_files D:/computing/pipeline交/6.26pipline/SSeg7.v] -no_script -reset -force -quiet
+remove_files  D:/computing/pipeline交/6.26pipline/SSeg7.v
+add_files -norecurse {C:/Users/86187/Desktop/liushuixian/IO/Multi_8CH32.ngc C:/Users/86187/Desktop/liushuixian/IO/SSeg7_Dev.ngc C:/Users/86187/Desktop/liushuixian/IO/MIO_BUS.ngc}
+add_files -norecurse {C:/Users/86187/Desktop/liushuixian/IO/MIO_BUS_IO.v C:/Users/86187/Desktop/liushuixian/IO/SSeg7_Dev_IO.v C:/Users/86187/Desktop/liushuixian/IO/Multi_8CH32_IO.v}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/computing/pipeline交/6.26pipline/Multi_8CH32.v] -no_script -reset -force -quiet
+remove_files  D:/computing/pipeline交/6.26pipline/Multi_8CH32.v
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+[Fri Jun 30 21:23:00 2023] Launched synth_1...
+Run output will be captured here: D:/computing/pipeline交/pipeline.runs/synth_1/runme.log
+add_files -norecurse {C:/Users/86187/Desktop/liushuixian/IO/SPIO.ngc C:/Users/86187/Desktop/liushuixian/IO/SEnter_2_32.ngc C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter.ngc}
+add_files -norecurse {C:/Users/86187/Desktop/liushuixian/IO/SPIO_IO.v C:/Users/86187/Desktop/liushuixian/IO/SEnter_2_32_IO.v C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter_IO.v C:/Users/86187/Desktop/liushuixian/IO/clk_div.v C:/Users/86187/Desktop/liushuixian/IO/Counter_3_IO.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SAnti_jitter' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SEnter_2_32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SPIO' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SAnti_jitter' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SEnter_2_32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SPIO' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+[Fri Jun 30 21:25:20 2023] Launched synth_1...
+Run output will be captured here: D:/computing/pipeline交/pipeline.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SAnti_jitter' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SEnter_2_32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SPIO' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SAnti_jitter' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SEnter_2_32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SPIO' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+[Fri Jun 30 21:25:29 2023] Launched synth_1...
+Run output will be captured here: D:/computing/pipeline交/pipeline.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SAnti_jitter' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SEnter_2_32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SPIO' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SAnti_jitter' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SEnter_2_32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SPIO' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+[Fri Jun 30 21:27:28 2023] Launched synth_1...
+Run output will be captured here: D:/computing/pipeline交/pipeline.runs/synth_1/runme.log
+set_property source_mgmt_mode All [current_project]
+add_files -norecurse C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter.ngc
+WARNING: [filemgmt 56-12] File 'C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter.ngc' cannot be added to the project because it already exists in the project, skipping this file
+add_files -norecurse C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter_IO.v
+WARNING: [filemgmt 56-12] File 'C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter_IO.v' cannot be added to the project because it already exists in the project, skipping this file
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SAnti_jitter' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SEnter_2_32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SPIO' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'MIO_BUS' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Multi_8CH32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SAnti_jitter' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SEnter_2_32' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SPIO' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'SSeg7_Dev' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dm_controller' found in library 'xil_defaultlib'
+[Fri Jun 30 21:43:49 2023] Launched synth_1...
+Run output will be captured here: D:/computing/pipeline交/pipeline.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 30 22:12:47 2023...

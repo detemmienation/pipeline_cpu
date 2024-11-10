@@ -1,0 +1,19 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/86187/Desktop/liushuixian/CPU/EX.v,1656416048,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/EXT.v,,EX,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/EXT.v,1687944593,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/ID.v,C:/Users/86187/Desktop/liushuixian/CPU/ctrl_encode_def.v,EXT,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/ID.v,1656416176,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/IF.v,,ID,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/IF.v,1687944592,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/MEM.v,,IF,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/MEM.v,1656416218,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/NPC.v,,MEM,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/NPC.v,1656416386,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/PC.v,C:/Users/86187/Desktop/liushuixian/CPU/ctrl_encode_def.v,NPC,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/PC.v,1656383958,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/RF.v,,PC,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/PipeCPU.v,1656416544,verilog,,,C:/Users/86187/Desktop/liushuixian/CPU/ctrl_encode_def.v,PipeCPU,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/RF.v,1656384116,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/alu.v,,RF,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/alu.v,1656416096,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/ctrl.v,C:/Users/86187/Desktop/liushuixian/CPU/ctrl_encode_def.v,alu,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/ctrl.v,1656416114,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/forward.v,C:/Users/86187/Desktop/liushuixian/CPU/ctrl_encode_def.v,ctrl,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/ctrl_encode_def.v,1621678580,verilog,,,,,,,,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/forward.v,1656416558,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/hazard.v,,forward,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+C:/Users/86187/Desktop/liushuixian/CPU/hazard.v,1656412900,verilog,,C:/Users/86187/Desktop/liushuixian/CPU/PipeCPU.v,C:/Users/86187/Desktop/liushuixian/CPU/ctrl_encode_def.v,Hazard,,,C:/Users/86187/Desktop/liushuixian/CPU,,,,,
+D:/computing/pipeline/pipeline.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,

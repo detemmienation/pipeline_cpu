@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/Users/86187/Desktop/liushuixian/CPU" \
+"C:/Users/86187/Desktop/liushuixian/CPU/EX.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/EXT.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/ID.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/IF.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/MEM.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/NPC.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/PC.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/RF.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/alu.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/ctrl.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/forward.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/hazard.v" \
+"C:/Users/86187/Desktop/liushuixian/CPU/PipeCPU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

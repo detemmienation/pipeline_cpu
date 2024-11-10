@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jun 28 22:04:39 2023
+# Process ID: 6992
+# Current directory: D:/vivado_project/pipeline_new/pipeline.runs/RAM_B_synth_1
+# Command line: vivado.exe -log RAM_B.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RAM_B.tcl
+# Log file: D:/vivado_project/pipeline_new/pipeline.runs/RAM_B_synth_1/RAM_B.vds
+# Journal file: D:/vivado_project/pipeline_new/pipeline.runs/RAM_B_synth_1\vivado.jou
+#-----------------------------------------------------------
+source RAM_B.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP RAM_B, cache-ID = 0126225258be6ccb.
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 28 22:04:43 2023...

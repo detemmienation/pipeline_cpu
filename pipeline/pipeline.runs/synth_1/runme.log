@@ -1,0 +1,96 @@
+
+*** Running vivado
+    with args -log IP2SOC_TOP.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source IP2SOC_TOP.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source IP2SOC_TOP.tcl -notrace
+Command: synth_design -top IP2SOC_TOP -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19664 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 494.367 ; gain = 100.500
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'IP2SOC_TOP' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/top.v:21]
+INFO: [Synth 8-6157] synthesizing module 'PipeCPU' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:2]
+INFO: [Synth 8-6157] synthesizing module 'PC' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PC.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IF' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/IF.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'IF' (2#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/IF.v:2]
+INFO: [Synth 8-6157] synthesizing module 'RF' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/RF.v:3]
+WARNING: [Synth 8-5788] Register rf_reg[0] in module RF is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/RF.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (3#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/RF.v:3]
+INFO: [Synth 8-6157] synthesizing module 'EXT' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/EXT.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'EXT' (4#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/EXT.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ctrl' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/ctrl.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'ctrl' (5#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/ctrl.v:2]
+INFO: [Synth 8-6157] synthesizing module 'ID' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/ID.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ID' (6#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/ID.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/alu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/alu.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (7#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/alu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'EX' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/EX.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EX' (8#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/EX.v:1]
+INFO: [Synth 8-6157] synthesizing module 'NPC' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/NPC.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/NPC.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'NPC' (9#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/NPC.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:234]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:228]
+INFO: [Synth 8-6157] synthesizing module 'MEM' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/MEM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MEM' (10#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/MEM.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:304]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:311]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:300]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:297]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:342]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:349]
+INFO: [Synth 8-6157] synthesizing module 'forward' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/forward.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'forward' (11#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/forward.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Hazard' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/hazard.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Hazard' (12#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/hazard.v:2]
+WARNING: [Synth 8-3848] Net CPU_MIO in module/entity PipeCPU does not have driver. [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'PipeCPU' (13#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v:2]
+INFO: [Synth 8-6157] synthesizing module 'ROM_D' [C:/Users/86187/Desktop/pipeline交/pipeline.runs/synth_1/.Xil/Vivado-19056-LAPTOP-L1154LH9/realtime/ROM_D_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM_D' (14#1) [C:/Users/86187/Desktop/pipeline交/pipeline.runs/synth_1/.Xil/Vivado-19056-LAPTOP-L1154LH9/realtime/ROM_D_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RAM_B' [C:/Users/86187/Desktop/pipeline交/pipeline.runs/synth_1/.Xil/Vivado-19056-LAPTOP-L1154LH9/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM_B' (15#1) [C:/Users/86187/Desktop/pipeline交/pipeline.runs/synth_1/.Xil/Vivado-19056-LAPTOP-L1154LH9/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MIO_BUS' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/MIO_BUS_IO.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'MIO_BUS' (16#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/MIO_BUS_IO.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Multi_8CH32' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Multi_8CH32_IO.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Multi_8CH32' (17#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Multi_8CH32_IO.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SSeg7_Dev' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SSeg7_Dev_IO.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'SSeg7_Dev' (18#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SSeg7_Dev_IO.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SPIO' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SPIO_IO.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'SPIO' (19#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SPIO_IO.v:21]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/clk_div.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (20#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/clk_div.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SAnti_jitter' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SAnti_jitter_IO.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'SAnti_jitter' (21#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SAnti_jitter_IO.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Counter_x' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:21]
+WARNING: [Synth 8-6014] Unused sequential element counter1_Lock_reg was removed.  [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:45]
+WARNING: [Synth 8-6014] Unused sequential element counter2_Lock_reg was removed.  [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:45]
+WARNING: [Synth 8-6014] Unused sequential element M1_reg was removed.  [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:50]
+WARNING: [Synth 8-6014] Unused sequential element M2_reg was removed.  [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:51]
+WARNING: [Synth 8-5788] Register M0_reg in module Counter_x is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:49]
+WARNING: [Synth 8-5788] Register clr0_reg in module Counter_x is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:71]
+WARNING: [Synth 8-3848] Net counter1 in module/entity Counter_x does not have driver. [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:36]
+WARNING: [Synth 8-3848] Net counter2 in module/entity Counter_x does not have driver. [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'Counter_x' (22#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SEnter_2_32' [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SEnter_2_32_IO.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'SEnter_2_32' (23#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SEnter_2_32_IO.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'IP2SOC_TOP' (24#1) [C:/Users/86187/Desktop/pipeline交/pipeline.srcs/top.v:21]
+WARNING: [Synth 8-3331] design Counter_x has unconnected port counter1_OUT
+WARNING: [Synth 8-3331] design Counter_x has unconnected port counter2_OUT
+WARNING: [Synth 8-3331] design Counter_x has unconnected port clk1
+WARNING: [Synth 8-3331] design Counter_x has unconnected port clk2
+WARNING: [Synth 8-3331] design PipeCPU has unconnected port CPU_MIO
+WARNING: [Synth 8-3331] design PipeCPU has unconnected port MIO_ready
+WARNING: [Synth 8-3331] design PipeCPU has unconnected port INT
+TclStackFree: incorrect freePtr. Call out of sequence?

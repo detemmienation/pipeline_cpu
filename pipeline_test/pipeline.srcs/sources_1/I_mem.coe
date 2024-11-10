@@ -1,0 +1,15 @@
+;cpu_IO_test1.asm
+memory_initialization_radix = 16;
+memory_initialization_vector =
+12300293,
+00502223,
+00028333,
+45600213,
+00402383,
+00038433,
+FE8394E3,
+00140413,
+FE8390E3,
+00000033,
+00000033,
+00000033;

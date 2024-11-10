@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jul  9 22:13:09 2023
+# Process ID: 19768
+# Current directory: C:/Users/86187/Desktop/pipeline交
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12256 C:\Users\86187\Desktop\pipeline交\pipeline.xpr
+# Log file: C:/Users/86187/Desktop/pipeline交/vivado.log
+# Journal file: C:/Users/86187/Desktop/pipeline交\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86187/Desktop/pipeline交/pipeline.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/SSeg7_Dev.ngc] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/计组/单周期/单周期提供文件/edf_file/dm_controller.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/计组/单周期/单周期提供文件/edf_file/dm_controller.edf] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/clk_div.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/SSeg7_Dev_IO.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/计组/单周期/单周期提供文件/edf_file/SSeg7.edf] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/SPIO_IO.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/SPIO.ngc] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/SEnter_2_32_IO.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/SEnter_2_32.ngc] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter_IO.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter.ngc] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/Multi_8CH32_IO.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/Multi_8CH32.ngc] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/MIO_BUS_IO.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/MIO_BUS.ngc] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IP2SOC_TOP.ngc] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/IO/Counter_3_IO.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/hazard.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/forward.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/MEM.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/NPC.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/EX.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/alu.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/ID.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/ctrl.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/RF.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/IF.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/PC.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/EXT.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/86187/Desktop/liushuixian/IO/SSeg7_Dev.ngc C:/Users/86187/Desktop/计组/单周期/单周期提供文件/edf_file/dm_controller.v C:/Users/86187/Desktop/计组/单周期/单周期提供文件/edf_file/dm_controller.edf C:/Users/86187/Desktop/liushuixian/IO/clk_div.v C:/Users/86187/Desktop/liushuixian/IO/SSeg7_Dev_IO.v C:/Users/86187/Desktop/计组/单周期/单周期提供文件/edf_file/SSeg7.edf C:/Users/86187/Desktop/liushuixian/IO/SPIO_IO.v C:/Users/86187/Desktop/liushuixian/IO/SPIO.ngc C:/Users/86187/Desktop/liushuixian/IO/SEnter_2_32_IO.v C:/Users/86187/Desktop/liushuixian/IO/SEnter_2_32.ngc C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter_IO.v C:/Users/86187/Desktop/liushuixian/IO/SAnti_jitter.ngc C:/Users/86187/Desktop/liushuixian/IO/Multi_8CH32_IO.v C:/Users/86187/Desktop/liushuixian/IO/Multi_8CH32.ngc C:/Users/86187/Desktop/liushuixian/IO/MIO_BUS_IO.v C:/Users/86187/Desktop/liushuixian/IO/MIO_BUS.ngc C:/Users/86187/Desktop/liushuixian/IP2SOC_TOP.ngc C:/Users/86187/Desktop/liushuixian/IO/Counter_3_IO.v C:/Users/86187/Desktop/liushuixian/CPU/hazard.v C:/Users/86187/Desktop/liushuixian/CPU/forward.v C:/Users/86187/Desktop/liushuixian/CPU/MEM.v C:/Users/86187/Desktop/liushuixian/CPU/NPC.v C:/Users/86187/Desktop/liushuixian/CPU/EX.v C:/Users/86187/Desktop/liushuixian/CPU/alu.v C:/Users/86187/Desktop/liushuixian/CPU/ID.v C:/Users/86187/Desktop/liushuixian/CPU/ctrl.v C:/Users/86187/Desktop/liushuixian/CPU/RF.v C:/Users/86187/Desktop/liushuixian/CPU/IF.v C:/Users/86187/Desktop/liushuixian/CPU/PC.v C:/Users/86187/Desktop/liushuixian/CPU/EXT.v}
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/liushuixian/CPU/PipeCPU.v] -no_script -reset -force -quiet
+remove_files  C:/Users/86187/Desktop/liushuixian/CPU/PipeCPU.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/6.26流水线提供/Multi_8CH32.edf] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/6.26流水线提供/MIO_BUS.edf] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/6.26流水线提供/SSeg7.edf] -no_script -reset -force -quiet
+remove_files  {C:/Users/86187/Desktop/6.26流水线提供/Multi_8CH32.edf C:/Users/86187/Desktop/6.26流水线提供/MIO_BUS.edf C:/Users/86187/Desktop/6.26流水线提供/SSeg7.edf}
+add_files {C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SEnter_2_32.ngc C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/MIO_BUS.edf C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SSeg7_Dev.ngc C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SPIO.ngc C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SSeg7.edf C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/MIO_BUS.ngc C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SPIO.edf C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/dm_controller.edf C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Multi_8CH32.ngc C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SAnti_jitter.ngc C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/Multi_8CH32.edf}
+add_files {C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/forward.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/Multi_8CH32.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SPIO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/IF.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/ip/RAM_B/RAM_B.xci C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/ip/ROM_D/ROM_D.xci C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/ID.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/hazard.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Multi_8CH32_IO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SSeg7_Dev_IO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PC.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/dm_controller.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/RF.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/MEM.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/PipeCPU.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/ctrl_encode_def.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Counter_3_IO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/alu.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/NPC.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/MIO_BUS.V C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/EXT.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/clk_div.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/Counter_3_IO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/ctrl.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Hzpipelinecpu/EX.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SEnter_2_32_IO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SPIO_IO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/SAnti_jitter_IO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SSeg7.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/MIO_BUS_IO.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/IO/clk_div.v}
+export_ip_user_files -of_objects  [get_files  {C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/ip/RAM_B/RAM_B.xci C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/ip/ROM_D/ROM_D.xci}] -lib_map_path [list {modelsim=C:/Users/86187/Desktop/pipeline交/pipeline.cache/compile_simlib/modelsim} {questa=C:/Users/86187/Desktop/pipeline交/pipeline.cache/compile_simlib/questa} {riviera=C:/Users/86187/Desktop/pipeline交/pipeline.cache/compile_simlib/riviera} {activehdl=C:/Users/86187/Desktop/pipeline交/pipeline.cache/compile_simlib/activehdl}] -force -quiet
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Counter_3_IO.v] -no_script -reset -force -quiet
+remove_files  C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/Counter_3_IO.v
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/MIO_BUS.V] -no_script -reset -force -quiet
+remove_files  C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/MIO_BUS.V
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/Multi_8CH32.v] -no_script -reset -force -quiet
+remove_files  C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/Multi_8CH32.v
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SPIO.v] -no_script -reset -force -quiet
+remove_files  C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SPIO.v
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/clk_div.v] -no_script -reset -force -quiet
+remove_files  C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/clk_div.v
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+add_files -norecurse C:/Users/86187/Desktop/pipeline交/pipeline.srcs/top.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SSeg7.edf] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SSeg7.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/dm_controller.edf] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/dm_controller.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SSeg7.edf C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/SSeg7.v C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/dm_controller.edf C:/Users/86187/Desktop/pipeline交/pipeline.srcs/sources_1/edf_file/dm_controller.v}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
